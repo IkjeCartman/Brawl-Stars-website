@@ -4,7 +4,7 @@
 
 
 body {
-    background-color: #FFFAF0;
+    background-color: #7b98dc;
     color: #4f7302;
     font-family: 'Roboto', sans-serif;
     line-height: 1.8;
@@ -46,12 +46,12 @@ td{
     border: 1px solid #DDDDDD;
 }
 nav {
-    background-color: #FFFAF0;
+    background-color: #FFFF00;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    width: 1140px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -62,7 +62,7 @@ nav .items {
 }
 
 nav .items li {
-    background-color: #FFFAF0;
+    background-color: #FFFF00;
     width: 200px;
     border-radius: 10px;
     text-align: center;
@@ -101,9 +101,9 @@ nav .logo {
 }
 
 .banner {
-    width: 100%;
-    height: 300px;
-    background-image: url('images/pizza.jpg');
+    width: 50%;
+    height: 500px;
+    background-image: url('Brawl-Stars-logo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,15 +123,15 @@ nav .logo {
     display: flex;
 }
 
-.recept {
+.brawlers {
     width: 366px;
-    color: #4f7302;
+    color: #000000;
     text-decoration: none;
 }
 
-.recept img {
-    max-width: 100%;
-    height: auto;
+.brawlers img {
+    max-width: 75%;
+    height: 200px;
     margin: 20px auto;
     border-radius: 5px;
     display: block;
